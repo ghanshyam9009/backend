@@ -10,7 +10,7 @@ const connectDB = async () => {
     console.log("🔹 Starting MongoDB connection...");
 
     // Your connection string
-    const uri = "mongodb+srv://user123:user123!$@cluster0.sj3c6kt.mongodb.net/?appName=Cluster0";
+    const uri = "mongodb+srv://ghanshyamchoudhary9009_db_user:0F9LcyBemJUW8YtJ@cluster0.zavd4go.mongodb.net/?appName=Cluster0";
 
     // Hide password in logs    
     const safeUri = uri.replace(/:(.*)@/, ":******@");
